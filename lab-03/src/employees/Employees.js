@@ -22,8 +22,17 @@ import React from 'react';
           admin: false,
           firstName: 'Normal',
           lastName: 'User'
-        }
-      ]
+        },
+        {
+            _id: 3,
+            username: 'sooper',
+            email: 'ivan@sooper.com',
+            password: 'secret',
+            admin: true,
+            firstName: 'Ivan',
+            lastName: 'Kluzak'
+          }
+        ]
     };
   
     render() {
