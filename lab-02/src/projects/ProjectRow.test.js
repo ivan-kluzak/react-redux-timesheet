@@ -26,5 +26,8 @@ describe('<ProjectRow />', () => {
         expect(wrapper.find('td').at(1).text()).toEqual('DESCRIPTION');
       });
 
+      it('should render to match the snapshot', () => {
+        expect(wrapper).toMatchSnapshot();
+      });
 
 });
